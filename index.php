@@ -77,7 +77,7 @@
 
 			elseif (mysqli_num_rows($query) > 0) {
 				$realFileName = $result['filename'];
-				$file = "files/".$realFileName;
+				$file = $foldername."/".$realFileName;
 				$fp = fopen($file, 'rb');
 
 				header("Content-Type: application/octet-stream");

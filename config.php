@@ -28,6 +28,7 @@
 	// Add to dropdown
 	$dropdownenabled = "no"; // To enable the dropdown, do "yes". To disable, do "no". If the value is no, don't do anything below
 	$filetype = "zip"; // Put the filetype here. IE: zip or rar
+	$foldername = "name_of_folder";
 	$products = [
 		"Item 1",
 		"Item 2",
